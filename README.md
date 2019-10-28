@@ -42,3 +42,4 @@ Interface segregation tends to come down firmly on the side of wrapping any gene
 
 Interface segregation often leads to separating a builder function or class to construct complex objects. This will segregate the interface for constructing an object from the interface for ordinary use of the object in the application.
 
+The interface segregation principle looks at each class from the viewpoint of the collaborating classes. Taking each collaborator as a reference point, it's important to ask, "What methods and attributes does "this collaborator require?" This helps locate a cohesive, minimal interface for each collaborator.
