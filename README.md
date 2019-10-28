@@ -33,3 +33,8 @@ TDD (Test-driven Development)
 SOLID, DRY, GRASP, and TDD overlap in principle.
 
 The SOLID principles will help a designer articulate why some designs are superior to others. These principles will say nothing about a large number of software engineering issues.
+
+# Interface Segregation
+
+a client should depend on the smallest set of interface features, the fewest methods and attributes. A class needs to be designed so that collaborators have the narrowest interface.
+
