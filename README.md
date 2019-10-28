@@ -34,7 +34,11 @@ SOLID, DRY, GRASP, and TDD overlap in principle.
 
 The SOLID principles will help a designer articulate why some designs are superior to others. These principles will say nothing about a large number of software engineering issues.
 
-# Interface Segregation
+## Interface Segregation
 
 a client should depend on the smallest set of interface features, the fewest methods and attributes. A class needs to be designed so that collaborators have the narrowest interface.
+
+Interface segregation tends to come down firmly on the side of wrapping any generic built-in class. This leads to classes which delegate their methods to the built-in class. The wrapping technique provides a limited interface.
+
+Interface segregation often leads to separating a builder function or class to construct complex objects. This will segregate the interface for constructing an object from the interface for ordinary use of the object in the application.
 
